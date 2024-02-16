@@ -17,7 +17,7 @@ border-radius: 16px;}
 .info-2 { color: white;
     background-color: rgb(32, 18, 224);
 padding-top: 20px;
-padding-bottom: 20px;    utbr4a3sy5/\;8\
+padding-bottom: 20px;    
 padding-left: 180px;
 padding-right: 180px;
 border-top: 10px solid rgb(183, 228, 19);
@@ -53,17 +53,7 @@ border-left: 20px solid  rgb(231, 8, 8);
 border-right: 20px solid rgb(231, 8, 8);}
 
 
-.form-information {
-border-top: 5px solid rgb(73, 15, 180);
-border-bottom: 5px solid  rgb(73, 15, 180);
-border-left: 5px solid  rgb(73, 15, 180);
-border-right: 5px solid  rgb(73, 15, 180);
-margin-top: 55px;
-margin-bottom: 15px;
-margin-left: 650px;
-margin-right: 650px;
-border-radius: 5px;
-width: 300px;}
+
 
 
 
@@ -78,26 +68,23 @@ border-left: 20px solid  rgb(231, 8, 8);
 border-right: 20px solid rgb(231, 8, 8);}
 
 .div {background-color: rgb(138, 43, 226);
-margin-top: 15px;}
+margin-top: 15px;
+padding-top: 15px;
+border-radius: 15px;}
 
-.img-3 {border-top: 5px solid rgb(80, 238, 7);
-border-bottom: 5px solid rgb(80, 238, 7);
-border-left: 5px solid rgb(80, 238, 7);
-border-right: 5px solid rgb(80, 238, 7);
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 190px;
-margin-right: 100px;}
+.form-information {
+border-top: 5px solid rgb(73, 15, 180);
+border-bottom: 5px solid  rgb(73, 15, 180);
+border-left: 5px solid  rgb(73, 15, 180);
+border-right: 5px solid  rgb(73, 15, 180);
+margin-top: 55px;
+margin-bottom: 15px;
+margin-left: 650px;
+margin-right: 650px;
+border-radius: 5px;
+width: 220px;}
 
 
-.img-4 {border-top: 5px solid rgb(80, 238, 7);
-border-bottom: 5px solid rgb(80, 238, 7);
-border-left: 5px solid rgb(80, 238, 7);
-border-right: 5px solid rgb(80, 238, 7);
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 190px;
-margin-right: 100px;}
 
 .guide {background-color: rgb(138, 43, 226);
 padding-top: 15px;
@@ -144,3 +131,25 @@ padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 700px;
 padding-right: 700px;}
+
+
+
+
+.img-3 {border-top: 5px solid rgb(80, 238, 7);
+    border-bottom: 5px solid rgb(80, 238, 7);
+    border-left: 5px solid rgb(80, 238, 7);
+    border-right: 5px solid rgb(80, 238, 7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 190px;
+    margin-right: 100px;}
+    
+    
+    .img-4 {border-top: 5px solid rgb(80, 238, 7);
+    border-bottom: 5px solid rgb(80, 238, 7);
+    border-left: 5px solid rgb(80, 238, 7);
+    border-right: 5px solid rgb(80, 238, 7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 190px;
+    margin-right: 100px;}

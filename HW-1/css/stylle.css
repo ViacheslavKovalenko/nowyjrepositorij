@@ -1,0 +1,18 @@
+
+.paragraf {background-color: black;
+
+}
+
+.div {
+display: inline-block ; 
+}
+
+.fre {background-color: aqua;
+max-width: 150px;
+max-height: 200;
+}
+.photo {padding-top: 25px;
+padding-left: auto;
+padding-right: auto;}
+
+.h2 {text-align: ;}
