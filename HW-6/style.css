@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+font-family:"roboto";
+}
+
+.navigation {
+ text-align:center; 
+ background-color: #000000;
+}
+
+.nav-list {
+ display: inline-block;
+ padding-top: 45px;
+ padding-bottom: 45px;
+}
+    
+.nav-item {
+ display: inline-block;
+ margin-right: 41px;
+}
+
+.header {
+ background-color: #ffffff;
+}
+
+.container {
+ margin: 0 auto;
+ max-width: 1200px; 
+ background-color: #ffffff;
+}
+
+.text-receive, 
+.text-interest,
+.text-Instant, 
+.text-Instant-delivery,
+.get-paid, 
+.cashback {
+ display: inline-block;
+ font-size: 20px;
+ font-weight: 400; 
+ line-height: 24px;
+ margin-left: 19px;
+ color: #000000;
+}
+
+.about,
+.customer, 
+.quiz, 
+.support {
+ color: #ffffff;
+}
+
+.header-content-text {
+ display: inline-block;
+ max-width: 699px;}
+
+.header-content-title { 
+ display: inline-block;
+ margin-top: 58px;
+ font-size: 80px;
+ line-height: 87px;
+ font-weight: 400;
+ max-width: 573px;
+ max-height: 263px;
+ margin-left: 45px;
+}
+
+.addition { 
+ display: inline-block;
+ font-size: 79px;
+ line-height: 87px;
+ font-weight: 400;
+}
+
+.header-content-img {
+ display: inline-block;
+ max-width: 500px;
+ vertical-align: top; 
+ margin-top: 70px;
+}
+
+.header-content-description {
+ margin-top: 38px;
+ font-size: 20px;
+ line-height: 30px;
+ font-weight: 400px;
+ max-width: 530px;
+ max-height: 60px;
+ margin-left: 45px;
+}
+
+.header-btn-group {
+ max-width: 380px;
+ max-height: 60px;
+ margin-left: 45px;
+ margin-top: 46px;
+}
+
+.header-btn-order-input {
+ max-width: 280; 
+ max-height: 60px;
+ border: solid 3px;
+ border-radius: 50px 0px 0px 50px;
+ text-align: center;
+ padding: 15px 55px;
+}
+
+
+.header-btn-order {
+ color: #ffffff; 
+ background-color: black;
+ max-width: 109px;
+ max-height: 60px;
+ border-radius: 0px 50px 50px 0px;
+padding: 18px 20px;
+}
+
+.step-1 {
+ font-size: 19px;
+ font-weight: 400;
+ line-height: 27px;
+ color: #000000;
+ margin-top: 44px;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+}
+
+.header-title {
+ font-size: 55px;
+ font-weight: 400;
+ line-height: 66px;
+ color: #000000;
+ margin-top: 30px;
+ text-align: center;
+ margin-bottom: 47px;
+}
+
+.choose {
+background-color: #FCD0BA;
+border-radius: 12px;
+}
+
+.content {
+max-width: 1200px;
+ margin: 0 auto;
+}
+
+.content-info {
+ display: inline-block; 
+ margin-left:45px; 
+ margin-right:54px; 
+ vertical-align: top; 
+ margin-top: 71px;
+}
+
+.content-title {
+ display: inline-block;
+ margin-top: 71px;
+}
+
+.caption {
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 28px;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ color: #000000;
+}
+
+.sudject {
+ margin-top: 21px;
+ font-weight: 400;
+ font-size: 45px;
+ max-width: 301px;
+ max-height: 91px;
+ color: #000000;
+}
+
+.advance {
+ position: relative;
+ left: 0px; top: 0px;
+}
+
+.checkbox-1 {
+ margin-top: 81px;
+}
+
+.text-receive {
+ max-width: 230px;
+ max-height: 23px;
+ padding-top: 2%;
+}
+
+.checkbox-2 {
+ margin-top: 33px;
+}
+
+.text-interest {
+ max-width: 306px;
+ max-height: 46px;
+ padding-top: 0px;
+}
+
+.checkbox-3 {
+ margin-top: 34px;
+}
+
+.text-Instant-delivery {
+ max-width: 150px;
+ max-height: 23px;
+ padding-top: 2%;
+}
+
+.content-deposit {
+ margin-bottom: 47px;
+}
+
+.content-deposit-cash {
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.step-2 {
+ text-align: center;
+ line-height: 27px;
+ font-size: 19px;
+ font-weight: 400;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ color: #000000;
+ margin-top: 70px;
+}
+
+.deposit-title {
+ text-align: center;
+ margin: 0 auto;
+ line-height: 66px;
+ font-size: 55px;
+ font-weight: 400;
+ color: #000000;
+ margin-top: 30px;
+ max-width: 708px;
+ max-height: 134px;
+ padding-bottom: 47px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+.last-content {
+ background-color: #CCD3E7;
+ border-radius: 12px;
+}
+
+.last-container {
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.cards {
+ display: inline-block;
+ vertical-align: top;
+ margin-top: 71px;
+ margin-left: 45px;
+}
+
+.recommendation {
+ border-radius: 40px;
+ background-color: #ffffff;
+ text-transform: uppercase;
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 1px;
+ padding-top: 4px;
+ padding-bottom: 6px;
+ padding-left: 30px;
+ padding-right: 10px;  
+ margin-left: 24px;
+ margin-top: 75px;
+ max-width: 144px;
+ max-height: 33px;
+}
+
+.last-title {
+ display: inline-block;
+ margin-left: 30px;}
+
+.empower {
+ display: inline-block;
+ margin-left: 24px;
+ font-size: 45px;
+ font-weight: 400;
+ line-height: 48px;
+ padding-top: 27px;
+}
+
+.debit {
+ margin-left: 24px;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ max-width: 383px;
+ max-height: 46px;
+ margin-top: 34px;
+}
+
+.total-information {
+ margin-left: 24px;
+}
+
+.checkbox-1-a {
+ padding-top: 32px;
+}
+
+.text-Instant {
+ max-width: 280px;
+ max-height: 45px;
+ vertical-align: top;
+ margin-top: -4px;
+}
+
+.checkbox-2-a {
+ margin-top: 35px;
+}
+
+.get-paid {
+ max-width: 282px;
+ max-height: 23px;
+ margin-top: 8px;
+}
+
+.checkbox-3-a {
+ margin-top: 30px;
+}
+
+.cashback {
+ max-width: 253px;
+ max-height: 23px;
+ margin-top: 8px;
+}
+
+.button {
+ color: #ffffff;
+ background-color: #000000;
+ margin-left: 24px;
+ margin-top: 39px;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.5px;
+ padding: 14px 24px;
+ border-radius: 50px;
+ margin-bottom: 121px;
+}
+
+.footer {
+ background-color: #020016;
+}
+
+.basement {
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.expand {
+ display: inline-block;
+ font-size: 12px;
+ line-height: 18px;
+ margin-left: 45px;
+ padding-top: 110px;
+ padding-bottom:  230px;
+ color: #B3B3B3;
+ max-width: 254px;
+ max-height: 144px;
+}
+
+.opportunities {
+ display: inline-block;
+ margin-left: 480px;
+ vertical-align: top;
+ margin-top: 82px;
+}
+
+.opportunities-list,
+.link-list-net{
+ margin-bottom: 20px;
+}
+
+.text-footer, 
+.net{
+ color: #ffffff;
+ font-size: 16px;
+}
+
+.others{
+ display: inline-block;
+ margin-left: 39px;
+ vertical-align: top;
+ margin-top: 83px;
+}
+
+.link-list {
+display: inline-block;
+vertical-align: top;
+margin-left: 49px;
+margin-top: 83px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

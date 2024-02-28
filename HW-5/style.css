@@ -10,23 +10,40 @@ padding-left: 28px;
 padding-right: 28px;}
 
 .bob-1, .bob-2, .bob-3, .bob-4, .bob-5, .bob-6, .bob-7, 
-.bob-8 {display: inline-block; background-color: aliceblue;border: solid 3px rgb(0, 0, 0);
+.bob-8, .bob-9, .bob-10, .bob-11, .bob-12 {display: inline-block; background-color: aliceblue;border: solid 3px rgb(0, 0, 0);
 text-align: center; margin-left: 34px;}
 
+.bob-6:hover {height: 400px; width: 300px;}
+.bob6:hover{margin-top: 50px;}
+.bob-7:hover {height: 400px; width: 300px;}
+.bob7:hover{margin-top: 50px;}
 
-.bob-5, .bob-6, .bob-7, 
-.bob-8 {margin-top: 82px;
-margin-bottom: 15px;}
+
+.bob-9,.bob-10, .bob-11, .bob-12 {margin-bottom: 15px;}
 
 .bob-1:hover {background-color: #e80f1a;} .bob-2:hover {background-color: #8960b8;} 
 .bob-3:hover {background-color: #158fd1;} .bob-4:hover {background-color: #0e91d7;}
 .bob-5:hover {background-color: #16c2d2;} .bob-6:hover {background-color: #327446;}
 .bob-7:hover {background-color: #15cd43;} .bob-8:hover {background-color: #c5cd4b;}
+.bob-9:hover {background-color: #628f93;} .bob-10:hover {background-color: #ad610b;}
+.bob-11:hover {background-color: #2e0404;} .bob-12:hover {background-color: #b1a6da;}
+
+.bob1:hover {background-color: #15cd43;} .bob2:hover {background-color: #c5cd4b;}
+.bob3:hover {background-color: #628f93;} .bob4:hover {background-color: #ad610b;}
+.bob5:hover {background-color: #2e0404;} .bob6:hover {background-color: #b1a6da;}
+.bob7:hover {background-color: #e80f1a;} .bob8:hover {background-color: #8960b8;} 
+.bob9:hover {background-color: #158fd1;} .bob10:hover {background-color: #0e91d7;}
+.bob11:hover {background-color: #16c2d2;} .bob12:hover {background-color: #327446;}
+
+
 
 .About-Minions {text-align: center;
 padding-top:  30px;
 padding-bottom: 44px;
 color: #FFFFFF;}
+
+.About-Minions:hover{color: #fd0000;
+background-color: chartreuse; font-size: 150px; font-weight: bolder;}
 
 .bob-1 {
 height: 327px;
@@ -49,19 +66,45 @@ width: 239px;}
 
 .bob-5 {
 height: 327px;
-width: 239px;}
+width: 239px;
+margin-top: 82px;}
 
 .bob-6 {
 height: 327px;
-width: 239px;}
+width: 239px;
+margin-top: 82px;}
 
 .bob-7 {
 height: 327px;
-width: 239px;}
+width: 239px;
+margin-top: 82px;}
 
 .bob-8 {
 height: 327px;
-width: 239px;}
+width: 239px;
+margin-top: 82px;
+position: relative; top: 25px;}
+
+.bob-9 {
+height: 327px;
+width: 239px;
+margin-top: 82px;}
+
+.bob-10 {
+height: 327px;
+width: 239px;
+margin-top: 82px;}
+
+.bob-11{
+height: 327px;
+width: 239px;
+margin-top: 82px;}
+
+.bob-12 {
+height: 327px;
+width: 239px;
+margin-top: 82px;}
+
 
 .image {margin-top: 23px;}
 
@@ -77,6 +120,8 @@ margin-right: 18px;
 font-family: "inter";
 font-weight: 400; line-height: 14.52px;}
 
+.subtitle:hover {color: #fffb00; background-color: #e80f1a;}
+
 .styled {color: rgb(0, 0, 0);
 margin-top: 22px;
 background-color: #6177EB;
@@ -84,13 +129,26 @@ border: none;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-padding: 12px 24px;
-;}
+padding-left:24px;
+padding-right: 24px;
+padding-top:12px;
+padding-bottom: 12px;}
 
+.styled:hover {background-color: chartreuse;}
 
 .text {margin-top: 13px;
 margin-left:auto;
 margin-right: auto;
 height: 15px;
-width: 67.22px;}
-  
+width:67.22px;}
+
+.img-star {position: fixed; top: 10px; right: 10px; }
+
+.headline:hover{color: #0e91d7;}
+
+.ppp {position: relative; right: -100px; top: 12px;}
+
+.headset {position: absolute; right: 10px; top: 820px;}
+
+
+.hello {background-color: #15cd43; padding: 55px; height: 200px; width: 200px; border: solid 25px;}
