@@ -1,0 +1,32 @@
+.div {background-color: aqua;
+font-size: 150px;
+max-width: 1500px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+flex-direction: row;
+align-items: ;
+}
+
+.one {background-color: blue;}
+
+.two {background-color: blueviolet;}
+
+.three {background-color: brown;}
+
+.four {background-color: burlywood;}
+
+.five {background-color: chartreuse;}
+
+.six {background-color: chocolate;}
+
+.seven {background-color: crimson;}
+
+.eight {background-color: darkblue;}
+
+.nine {background-color: darkgreen;}
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+width: 350px; height: 180px;
+}
