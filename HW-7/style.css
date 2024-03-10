@@ -1,36 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
-    border: solid 1px rgb(0, 0, 0);
     font-family: "roboto"; 
     color: #12100C;}
 
 .body{
-    margin: 0 auto;
     max-width: 1440px;
     background-color:#F5F3F4;
-    background-color: #FFAE33;
-    height: 1500px;
-    
 }
 
 .navigation {
-    display: flex;
-    max-height: 80px;
-    align-items: center;
-    justify-content: space-between;
     padding: 0px 32px;
 }
 
 .navigation-list{
-    display: flex;
     max-width: 613px;
-    max-height: 24px;
-    align-items: center;
     gap: 0px 48px;
 }
-
-
 
 .login-in{
     color: #f9f9f9;
@@ -39,48 +25,28 @@
     border-radius: 12px;
 }
 
-.list-nav{
-    opacity:.7;
-}
-
 .header{
     max-width: 1200px;
-    max-height: 672px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    background-color:#F5F3F4;
-}
-
-.header-img{
 }
 
 .header-workspace{
     margin-top: 15px;
 }
 
-
-.header-content{
-}
-
 .header-title{
     font-size: 80px;
-    font-weight: bold;
     margin-top: 139px;
     line-height: 88px;
 }
 
 .header-text{
-    opacity: .7;
     margin-top: 32px;
     font-size: 23px;
-    font-weight: 400;
     line-height: 32px;
 }
 
 .button{
     font-size: 18px;
-    font-weight: bold;
     line-height: 22.5px;
     background-color: #FFAE33;
     border-radius: 16px;
@@ -88,34 +54,27 @@
 }
 
 .header-area{
-    display: flex;
     margin-top: 48px;
 }
 
 .header-text-area{
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
-    opacity: .7;
     padding-left: 24px;
 }
 
 .header-imagies{
-    display: flex;
-    justify-content: space-between;
     max-width: 160px;
+    margin-top: 16px;
 }
 
 .main{
     max-width: 1200px;
-    margin: 0 auto;
-    background-color:#F5F3F4;
+    background-color: #F5F3F4;
 }
 
 .main-title{
     margin-top: 68px; 
-    display: flex;
-    justify-content: space-between;
 }
 
 .main-title-text{
@@ -124,14 +83,11 @@
 
 .main-subtitle{
     font-size: 32px;
-    font-weight: bold;
     line-height: 40px;
 }
 
 .main-subject{
     font-size: 24px;
-    font-weight: 400;
-    opacity: .7;
     line-height: 32px;
     margin-top: 58px;
 }
@@ -140,10 +96,8 @@
     margin-top: 85px;
 }
 
-
 .btn-more,.btn-more-sec{
     font-size: 14px;
-    font-weight: bold;
     line-height: 16px;
     background-color: #FFAE33;
     border-radius: 10.5px;
@@ -152,13 +106,11 @@
 
 .btn-doc,.btn-doc-sec{
     font-size: 14px;
-    font-weight: bold;
     line-height: 16px;
     background-color: #FFB0AE;
     border-radius: 10.5px;
     padding: 8px 22px;
     margin-left: 16px;
-
 }
 
 .main-section-title{
@@ -166,20 +118,16 @@
 }
 
 .main-section{
-    display: flex;
     margin: 160px 0px;
 }
 
 .section-subtitle{
     font-size: 32px;
-    font-weight: bold;
     line-height: 40px;
 }
 
 .section-subject{
     font-size: 24px;
-    font-weight: 400;
-    opacity: .7;
     line-height: 32px;
     margin-top: 25px;
 }
@@ -194,10 +142,7 @@
 
 .desc{
     font-size: 54px;
-    font-weight: bold;
     line-height: 71.8px;
-    text-align: center;
-    
     position: relative; top: -34px;
 }
 
@@ -205,30 +150,264 @@
     margin-top: 47px;
 }
 
-.img-description{
-    position: relative; left: -34.5px;
-}
-
 .desc-text{
     font-size: 24px;
-    font-weight: 400;
     line-height: 32px;
-    opacity: .7;
     padding: 25px 216px;
     margin-top: 25px;
 }
 
 .btn-group-desc{
     padding: 0px 435px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .btn-chrome,.btn-firefox{background-color:#ffffff;
     padding: 7px 12px 8px 16px;
-    display: flex; align-items: center;
     border-radius: 15px;
 }
+
+.wrapper-text-title{
+    font-size: 54px;
+    line-height: 63.7px;
+    margin-top: 177px;
+}
+
+.wrapper-text{
+    margin-top: 48px;
+}
+
+.world-links{
+    justify-content: center;
+    padding: 25px 0px;
+    flex-flow: row wrap;
+    gap: 50px 25px;
+}
+
+.more-all{
+    margin-top: 178px;
+}
+
+.more-all-connect{
+    background-color: #ffffff;
+    max-width: 642px;
+    border-radius: 20px;
+}
+
+.more-all-text{
+    font-size: 54px;
+    line-height: 71.8px;
+}
+
+.more-all-title{
+    margin-top: 48px;
+    max-width: 642px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 0px 50px;
+}
+
+.more-all-connect-git{
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 56px;
+}
+
+.more-all-text-git{
+    font-size:24px;
+    line-height: 21.9px;
+    margin-top: 8px;
+}
+
+.btn-group-hub{
+    max-width: 262px;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.gitlab{
+    background-color: #FC6D26 ;
+}
+
+.github{
+    background-color: #000000;
+    margin: 16px 0px;
+}
+
+.bucket{
+    background-color: #2684FF;
+}
+
+.gitlab,.github,.bucket{
+    color: #ffffff;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 0px;
+}
+
+.btn-group-prefix{
+    font-size: 24px;
+    max-width: 486px;
+    margin-top: 64px;
+    margin-bottom: 80px;
+}
+
+.launch{
+    background-color: #ffffff;
+    max-width: 642px;
+    border-radius: 20px;
+    margin-top: 48px;
+    padding: 0px 71px;
+}
+
+.workspaces{
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 56px;
+}
+
+.workspace-example{
+    font-size: 23px;
+    line-height: 21.9px;
+    margin-top: 7px;
+    margin-bottom: 32px;
+}
+
+.launch-list{
+    flex-direction: column;
+    gap: 12px 0px;
+}
+
+.node,.python,.go,.rust,.java,.svelte{
+    padding: 14.5px 15px;
+    border-radius: 12px;
+    background-color: #F9F9F9;
+}
+
+.img-node,.img-python,.img-go,.img-rust,.img-java,.img-svelte{
+    margin-right: 16px;
+}
+
+.Launch-node,.launch-python,.launch-go,.launch-rust,.launch-java,.launch-svelte{
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: #12100C;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.node-charge,.python-charge,.go-charge,.rust-charge,.java-charge,.svelte-charge{
+    align-content: center;
+}
+
+.text-rust,.text-java,.text-svelte,.text-node,.text-phyton,.text-go{
+    align-self: center;
+    font-size: 20px;
+}
+
+.footer{
+    padding-bottom: 48px;
+    margin-top: 160px;
+}
+
+.basement{
+    max-width: 900px;
+    padding-bottom: 48px;
+}
+
+.cellar{
+    max-width: 852px;
+    margin-top: 46px;
+}
+
+.gitpod-list{
+    max-width: 100px;
+}
+
+.developer-list{
+    max-width: 87px;
+}
+
+.company{
+    max-width: 56px;
+}
+
+.legal{
+    max-width: 98px;
+}
+
+.wrapp-link{
+    font-weight: 700;
+    line-height: 19.5px;
+}
+
+.list-part{
+    line-height: 19.5px;
+    margin-top: 8px;
+}
+
+.star{
+    color:#FF8A00; position: relative; top: -7px; right: -6px;
+}
+    
+.copyright{
+    margin-top: 48px;
+}
+
+.all-logo{   
+    max-width: 104px;
+    gap: 0px 16px;
+}
+
+.copyright-gitpod{
+    margin-left: 16px;
+}
+
+.node-charge,.python-charge,.go-charge,.rust-charge,.java-charge,.svelte-charge,.copyright-gitpod,.all-logo,.copyright,.logo-copyright,
+.cellar,.node,.python,.go,.rust,.java,.svelte,.launch-list,.gitlab,.github,.bucket,.more-all,.world-links,.wrapper-text,
+.btn-chrome,.btn-firefox,.btn-group-desc,.main-section,.main-title,.header-imagie,.header-are,.header,.navigation-list,.navigation,
+.btn-group-hub{
+    display: flex;
+}
+
+.node,.python,.go,.rust,.java,.svelte,.all-logo,.copyright,.cellar,.more-all,.wrapper-text,.btn-group-desc,.main-title,.header-imagies,
+.header,.navigation{
+    justify-content: space-between;
+}
+
+.node,.python,.go,.rust,.java,.svelte,.copyright-gitpod,.gitlab,.github,.bucket,.world-links,.btn-chrome,.btn-firefox,.navigation-list,
+.navigation{
+     align-items: center;
+}
+
+.cellar,.basement,.btn-group-prefix,.btn-group-hub,.main,.header,.body{
+    margin: 0 auto;
+}
+
+.list-part,.wrapp-link{
+    font-size: 13px;
+}
+
+.workspaces,.more-all-connect-git,.more-all-text,.wrapper-text-title,.desc,.section-subtitle,.btn-doc,.btn-doc-sec,.btn-more,.btn-more-sec,
+.main-subtitle,.header-title,.button{
+    font-weight: bold;
+}
+
+.workspace-example,.workspaces,.more-all-text-git,.more-all-connect-git,.more-all-text,.wrapper-text-title,.desc{
+    text-align: center;}
+
+.list-part,.text-rust,.text-java,.text-svelte,.text-node,.text-phyton,.text-go,.Launch-node,.launch-python,.launch-go,.launch-rust,
+.launch-java,.launch-svelte,.workspace-example,.more-all-text-git,.desc-text,.section-subject,.main-subject,.header-text-area,
+.header-text{
+    font-weight: 400;
+}
+
+.list-part,.text-rust,.text-java,.text-svelte,.text-node,.text-phyton,.text-go,.workspace-example,.btn-group-prefix,.more-all-text-git,
+.desc-text,.section-subject,.main-subject,.header-text-area,.header-text,.list-nav{
+    opacity: .7;}
+
 
 
 
