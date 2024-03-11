@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "lexend";
+    color: #18181B;
+}
+.body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main{
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 0px 32px;
+}
+
+.header{
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 1136px;
+}
+
+
+.header__content{
+    display: flex;
+    max-width: 208px;
+    margin: auto;
+    justify-content: space-between;
+}
+.header__content_text{
+    font-size: 15px;
+    color: #18181B;
+    margin: 23px 0px;
+}
+
+.chapter{
+    color: #71717A;
+}
+
+.main__list{
+    display: flex;
+    flex-direction: column;
+    gap: 17px 0px;
+}
+
+.main__list_items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.main__list_logo{
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
+    gap: 36px 0px;
+}
+
+.asset{display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    margin-left: 8px;
+}
+
+.border{
+    border: solid 1px; color: #F4F4F5;
+
+}
+
+.main__list_xrp,.main__list_bitcoin,.main__list_ethereum,.main__list_tetcher{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__button{
+    background-color: #9AFD4C;
+    padding: 9.5px 17px;
+    border-radius: 4px;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+    line-height: auto;
+}
+
+.main__logo{
+    display: flex;
+    align-items:  center;
+}
+.main__text{
+    margin-left: 8px;
+}
+
+.main__webmoney-table{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.market{
+    margin-right: 58px;
+}
+
+.main__basement_logo{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basement__logo_bitcoin{
+    z-index: 1;
+}
+
+.basement__logo_ethereum{
+    z-index: 2;
+    position: relative; right: 6px;
+}
+
+.basement__logo_tetcher{
+    z-index: 3;
+    position: relative; right: 12px;
+}
+
+.basement__logo_enjin-coin{
+    z-index: 4;
+    position: relative; right: 18px;
+}
+
+.asset,.market{
+    font-size: 14px;
+    line-height: 17.5px;
+    font-weight: 400;
+}
+
+.price,.change{
+    font-size: 13px;
+    line-height: 17.5px;
+    font-weight: 400;
+}
+
+.table__xrp_chapter-1,.table__bitcoin_chapter-2,.table__ethereum_chapter-1,.table__tetcher_chapter-1{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.table__enjin-coin_chapter-3{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.table__xrp_chapter-2,.table__bitcoin_chapter-2,.table__ethereum_chapter-2,.table__tetcher_chapter-2,.table__enjin-coin_chapter-2{
+    color: #10B981;
+    font-size: 16px;
+}
+
+.table__tetcher_chapter-2{
+    font-size: 15px;
+}
+
+.table__bitcoin_chapter-2,.table__ethereum_chapter-2{
+    color: #F43F5E;
+}
+
+.table__xrp_chapter-3,.table__bitcoin_chapter-3,.table__ethereum_chapter-3,.table__tetcher_chapter-3,.table__enjin-coin_chapter-3{
+    font-size: 16px;
+}
+
+.main__basement_tekst{
+    font-size: 15px;
+}
