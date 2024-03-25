@@ -1,0 +1,31 @@
+.footer{
+    background-color: #0A0A0A;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    align-items: center;
+}
+
+.footer__item{
+    color: #717171;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media screen and (max-width:360px) {.footer__item{
+    font-size: 10px;
+    max-width: 120px;
+}}
+
+.footer__number{
+    color: #717171;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+@media screen and (max-width:360px) {.footer__number{
+    font-size: 12px;
+    max-width: 120px;
+}}

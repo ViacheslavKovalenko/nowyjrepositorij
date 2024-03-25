@@ -1,35 +1,37 @@
-/*.div {background-color: aqua;
-font-size: 150px;
-max-width: 1500px;
-margin: 0 auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-flex-direction: row;
-align-items: ;
-}*/
-
-.div { background-color: aquamarine;
-display: grid;}
-
-.one {background-color: blue;}
-
-.two {background-color: blueviolet;}
-
-.three {background-color: brown;}
-
-.four {background-color: burlywood;}
-
-.five {background-color: chartreuse;}
-
-.six {background-color: chocolate;}
-
-.seven {background-color: crimson;}
-
-.eight {background-color: darkblue;}
-
-.nine {background-color: darkgreen;}
-
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
-width: 350px; height: 180px;
+.body {
+  background-color: grey;
 }
+
+.main {
+  font-size: 12px;
+}
+
+.div-1 {
+  padding: 35px 25px;
+  background-color: yellow;
+  color: brown;
+  text-align: center;
+  max-width: 1400px;
+  max-height: 100px;
+  margin: 15px 20px;
+}
+
+.div-2 {
+  padding: 35px 25px;
+  background-color: yellow;
+  color: brown;
+  text-align: center;
+  max-width: 1400px;
+  max-height: 100px;
+  margin: 15px 20px;
+}
+
+.div-3 {
+  padding: 35px 25px;
+  background-color: yellow;
+  color: brown;
+  text-align: center;
+  max-width: 1400px;
+  max-height: 100px;
+  margin: 15px 20px;
+}/*# sourceMappingURL=style.css.map */

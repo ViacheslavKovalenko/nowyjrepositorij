@@ -1,0 +1,11 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.main__article_title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #717171;
+}/*# sourceMappingURL=main.css.map */

@@ -137,6 +137,12 @@
     margin-top: 25px;
 }
 
+@media screen and (max-width: 400px) {
+    .section-subject{background-color: lime;
+    font-size: 10px;
+    max-width: 150px;}
+}
+
 .btn-group-section{
     margin-top: 85px;
 }
@@ -179,6 +185,11 @@
 
 .wrapper-text{
     margin-top: 48px;
+}
+
+@media screen and (max-width:400px) {
+    .wrapper-text {flex-direction: column;}
+    
 }
 
 .world-links{

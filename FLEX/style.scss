@@ -1,0 +1,24 @@
+@use"./body.scss";
+@use"./main.scss";
+
+@mixin div($padding: 15px 20px, $background:brown, $color:yellow) {
+    padding: 35px 25px;
+    background-color: $color;
+    color: $background ;
+    text-align: center;
+    max-width: 1400px;
+    max-height: 100px;
+    margin: $padding;
+    
+}
+.div-1 {
+    @include div;
+}
+
+.div-2{
+    @include div;
+}
+
+.div-3{
+    @include div;
+}
