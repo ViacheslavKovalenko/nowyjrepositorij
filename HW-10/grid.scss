@@ -1,0 +1,18 @@
+.grid{
+    max-width: 2879px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(10,1fr);
+    height: 100%;
+}
+
+@media screen and (max-width:724px) {.grid{
+    grid-template-rows: repeat(13,1fr);
+    grid-template-columns: repeat(11,1fr);
+}}
+
+@media screen and (max-width:320px) {.grid{
+    grid-template-rows: repeat(14,1fr);
+    grid-template-columns: repeat(6,1fr);
+}}
