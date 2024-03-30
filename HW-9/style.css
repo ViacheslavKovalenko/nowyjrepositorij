@@ -62,7 +62,7 @@ body {
 .header__nav_title {
   display: flex;
   max-width: 356px;
-  gap: 0px 30px;
+  gap: 5px 30px;
 }
 
 @media screen and (max-width: 360px) {
@@ -149,7 +149,7 @@ body {
 
 @media screen and (max-width: 360px) {
   .header__content_button {
-    max-width: 250px;
+    max-width: 200px;
     font-size: 14px;
     display: flex;
     justify-content: center;
