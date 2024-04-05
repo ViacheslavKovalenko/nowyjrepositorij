@@ -5,6 +5,11 @@
   margin-top: 134px;
 }
 
+@media screen and (max-width: 360px) {
+  .basement {
+    flex-direction: column;
+  }
+}
 .basement__data {
   display: flex;
   flex-grow: 1;
@@ -13,11 +18,6 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 360px) {
-  .basement__data {
-    max-width: 180px;
-  }
-}
 .basement__img {
   display: flex;
   flex-grow: 1;
@@ -101,12 +101,6 @@
     padding: 25px;
     font-size: 11px;
     margin-top: 5px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .basement__item {
-    margin: 0px;
-    max-width: 180px;
   }
 }
 .basement__button {

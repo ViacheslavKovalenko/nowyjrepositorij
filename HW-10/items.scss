@@ -175,13 +175,16 @@
     $display:flex,
     $center:center,
     $content:center,
-    $width:width:100%
-    ){
+    $width:100%
+    )
+    {
     text-transform:$big-font;
     font-size:$size-font;
     display:$display;
     align-items:$center;
-    justify-content:$content;}
+    justify-content:$content;
+    width:$width;
+}
 
     .item-1,.item-2,.item-3,.item-4,.item-5,.item-6,.item-7{
         @include grids;

@@ -1,19 +1,19 @@
 .main__container{
     margin-top: 70px;
+    display: flex; flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 130px;
 }
 
-.main__container_offer,.main__proposition{
-  display: flex;
-  justify-content: space-between;
-}
+@media screen and (max-width:724px) {.main__container{
+    justify-content: space-around;
+}}
 
-.main__container_offer-one,.main__container_offer-two,.main__proposition-one,.main__proposition-two{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    max-width: 560px;
-    width: 100%;
-}
+@media screen and (max-width:360px) {.main__container{
+    justify-content: space-around;
+}}
+
+
 
 .main__container_offer-phone{
     display: flex;
@@ -37,12 +37,6 @@
     font-size: 14px;
     font-family: "inter";
     font-weight: 400;
-}
-
-.main__proposition{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
 }
 
 .main__proposition_phone{
@@ -70,22 +64,42 @@
     font-weight: 400;
 }
 
-@media screen and (max-width:724px) {.main__container_offer-one,.main__container_offer-two,.main__proposition-one,.main__proposition-two{
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.main__article_title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #717171;
+    font-family: $text-font-nav;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.main__article_choose-phone{
     display: flex;
     flex-direction: column;
-    max-width: 240px;
-}}
+}
 
-@media screen and (max-width:724px) {.main__container_offer,.main__proposition{
-    justify-content: space-evenly;
-}}
+.main__article_color-phone{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "inter";
+    font-weight: bold;
+}
 
-@media screen and (max-width:360px) {.main__container_offer,.main__proposition{
-    flex-direction: column;
-    align-items: center;
-    max-width: 360px;
-}}
+.main__article_color-phone-translate{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "inter";
+    font-weight: 400;
+}
 
-@mixin roof ($distance:space-between,$box:flex)
-    {display: $box;
-    justify-content:$distance;}
